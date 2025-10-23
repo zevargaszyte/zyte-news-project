@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 from base64 import b64decode
 
-API_KEY = "624c725e317e4ce5ba44f4c3813d7fc2"  # Substitui pela tua chave Zyte
+API_KEY = "624c725e317e4ce5ba44f4c3813d7fc2" 
 
 def fetch_articles(url):
     response = requests.post(
